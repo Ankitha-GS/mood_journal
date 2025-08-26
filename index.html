@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Journal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <div class="container">
+        <h1>Mood Journal</h1>
+        <p id="date"></p>
+
+        <!-- Animated Mood Selection -->
+        <div class="mood-buttons">
+            <button data-mood="Happy">😊<span>Happy</span></button>
+            <button data-mood="Neutral">😐<span>Neutral</span></button>
+            <button data-mood="Sad">😢<span>Sad</span></button>
+            <button data-mood="Angry">😡<span>Angry</span></button>
+            <button data-mood="Excited">🤩<span>Excited</span></button>
+        </div>
+
+        <textarea id="note" placeholder="Write your reflection for today..."></textarea>
+        <button id="saveBtn">Save Entry</button>
+        <p id="feedback" class="feedback"></p>
+
+        <h2>History</h2>
+        <ul id="history"></ul>
+
+        <h2>Mood Analytics</h2>
+        <canvas id="moodChart" width="400" height="200"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
