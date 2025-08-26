@@ -38,9 +38,5 @@ Built with **HTML, CSS, and JavaScript**, this project focuses on creativity, in
 - **Mood analytics** with graphs and statistics.
 - Integration with **AI** for more personalized motivational feedback.
 
----
 
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Ankitha-GS/mood-journal.git
+
